@@ -1,0 +1,84 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    width: 400px;
+    margin-top: 3em;
+}
+.formInput{
+    border:2px solid #F18886;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.formMessageTxt{
+    border:2px solid #F18886;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+}
+.formButton{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 130px;
+    background-color: #F18886;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.formButton:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 3px ;
+    cursor: pointer;
+}
+.conatos_dados{
+    display: flex;
+    flex-direction: column;
+    margin-left: 55%;
+    margin-top: -20.9em;
+}
+.conatos_dados h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #F18886;
+    
+}
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -32.5em;
+    
+}
+
+.socials li {
+    margin: 0 5px;
+    
+}
+
+.socials a {
+    text-decoration: none;
+    
+    color: #0c0c0c;
+    padding: 10px;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color 0.4s ease;
+    
+}
+
+.socials a:hover i {
+    color: #F18886;
+}

@@ -1,0 +1,27 @@
+.contactContainer{
+    display: block;
+    padding: 2em;
+    margin-top: 2em;
+    background-color:#F18886 ;
+    
+}
+.title{
+    font-family: Helvetica, sans-serif;
+    font-size: 2.5em;
+    color: #fff;
+    text-align: center;
+}
+.titleP{
+    font-family: Helvetica, sans-serif;
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+}
+.span{
+    display: block;
+    padding: 1.5px;
+    width: 4em;
+    margin:auto;
+    margin-top: -1.5em;
+    background-color:#fff ;
+}
